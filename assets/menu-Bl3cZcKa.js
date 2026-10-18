@@ -1,4 +1,4 @@
-import{c as e,d as t,i as n,r,s as i}from"./sfx-nwR3AXr4.js";import{n as a,r as o,t as s}from"./music-n7uj2NL2.js";import{c,n as l,o as u,r as d}from"./run-CwsoLSmW.js";var f={prologue:`копим на мечту`,prep:`сборы`,night:`ночь в Токио`,day:`день концерта`};async function p(){let p=document.getElementById(`ui`);p.classList.add(`menu`),r(),a(`home`);let m=c(),h=l();p.innerHTML=`
+import{c as e,d as t,i as n,r,s as i}from"./sfx-BcFh7-h0.js";import{n as a,r as o,t as s}from"./music-CcxCDqyd.js";import{c,n as l,o as u,r as d}from"./run-CwsoLSmW.js";var f={prologue:`копим на мечту`,prep:`сборы`,night:`ночь в Токио`,day:`день концерта`};async function p(){let p=document.getElementById(`ui`);p.classList.add(`menu`),r(),a(`home`);let m=c(),h=l();p.innerHTML=`
     <div class="menu-bg"></div>
     <section class="card menu-card">
       <h1>Travel Goosing</h1>

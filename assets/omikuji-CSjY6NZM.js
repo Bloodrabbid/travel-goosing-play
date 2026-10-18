@@ -1,4 +1,4 @@
-import{s as e}from"./sfx-nwR3AXr4.js";import{n as t}from"./minigames-B_Ibi3Gs.js";var n=10,r=e=>new Promise(t=>setTimeout(t,e));function i(i){let a=document.createElement(`div`);a.className=`omikuji`,a.setAttribute(`aria-live`,`polite`),a.innerHTML=`
+import{s as e}from"./sfx-BcFh7-h0.js";import{n as t}from"./minigames-B_Ibi3Gs.js";var n=10,r=e=>new Promise(t=>setTimeout(t,e));function i(i){let a=document.createElement(`div`);a.className=`omikuji`,a.setAttribute(`aria-live`,`polite`),a.innerHTML=`
     <div class="omi-box" role="button" tabindex="-1" aria-label="встряхнуть коробку"><div class="omi-slips"></div></div>
     <div class="omi-legend"></div>
     <div class="omi-prompt" hidden></div>
