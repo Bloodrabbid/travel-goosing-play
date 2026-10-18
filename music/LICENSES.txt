@@ -1,0 +1,15 @@
+Travel Goosing — music (public/music). Interim tracks until the game's own score.
+
+All tracks by Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0 License
+https://creativecommons.org/licenses/by/4.0/
+Changes: each file is an excerpt cut into a seamless loop (crossfaded at the loop point), loudness-normalised
+to -16 LUFS, re-encoded as MP3 112 kbps.
+
+study-and-relax.mp3   "Study And Relax" Kevin MacLeod (incompetech.com) — ISRC USUAN1900030
+                      https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900030
+late-night-radio.mp3  "Late Night Radio" Kevin MacLeod (incompetech.com) — ISRC USUAN2100003
+                      https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2100003
+local-forecast.mp3    "Local Forecast" Kevin MacLeod (incompetech.com) — ISRC USUAN1300010
+                      https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300010
+funky-chunk.mp3       "Funky Chunk" Kevin MacLeod (incompetech.com) — ISRC USUAN1500054
+                      https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500054

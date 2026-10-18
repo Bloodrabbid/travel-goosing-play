@@ -1,0 +1,35 @@
+Travel Goosing — sound effects (public/sfx)
+
+All recordings below are CC0 1.0 (public domain dedication): https://creativecommons.org/publicdomain/zero/1.0/
+Attribution is not required; we credit the authors anyway. Files were edited for the game: cut, pitch-shifted,
+filtered, layered, faded, loudness-normalised, mono MP3.
+
+silence.mp3 — made for the game (ffmpeg anullsrc), no rights.
+
+BigSoundBank.com (CC0) — https://bigsoundbank.com/licenses.html
+  tap-1..4.mp3, stamp-1..3.mp3, slip.mp3, shake.mp3 (layer)
+                 Block "Meinl" in wood — Joseph SARDIN — https://bigsoundbank.com/block-meinl-in-wood-s0466.html
+  shake.mp3      Drumsticks #1, #2 — Joseph SARDIN — https://bigsoundbank.com/drumsticks-1-s1488.html
+                                                     https://bigsoundbank.com/drumsticks-2-s1489.html
+  coin.mp3, sparkle.mp3
+                 Music box G# #1, A# #1, D# #1, F #1 — Joseph SARDIN
+                 https://bigsoundbank.com/music-box-gd-1-s1865.html
+                 https://bigsoundbank.com/music-box-ad-1-s1866.html
+                 https://bigsoundbank.com/music-box-dd-1-s1869.html
+                 https://bigsoundbank.com/music-box-f-1-s1870.html
+  pop.mp3        Wine stopper #1 — DenisChardonnet — https://bigsoundbank.com/wine-stopper-s0274.html
+  quack.mp3      Ducks — DenisChardonnet — https://bigsoundbank.com/ducks-s0276.html
+  shutter.mp3    Instamatic, Triggering #1 — Joseph SARDIN — https://bigsoundbank.com/instamatic-triggering-1-s2821.html
+  kan.mp3        Bell of a level crossing — Joseph SARDIN — https://bigsoundbank.com/bell-of-a-level-crossing-s0899.html
+  crunch.mp3     Eating potato chips #1 — Joseph SARDIN — https://bigsoundbank.com/eating-potato-chips-1-s1430.html
+  tick.mp3       Tic Tac Mechanical Alarm Clock #2 — Joseph SARDIN — https://bigsoundbank.com/tic-tac-mechanical-alarm-clock-2-s2655.html
+  whoosh.mp3     Whoosh #4 — Joseph SARDIN — https://bigsoundbank.com/whoosh-4-s1796.html
+  rattle.mp3     Trash can rolling on a road #1 — Joseph SARDIN — https://bigsoundbank.com/trash-can-rolling-on-a-road-1-s1287.html
+  beep.mp3       Message #2, Message #1 — Joseph SARDIN — https://bigsoundbank.com/message-2-s1112.html
+                                                          https://bigsoundbank.com/message-1-s1111.html
+
+Kenney (www.kenney.nl, CC0)
+  stamp-1..3.mp3 (body layer)  Impact Sounds: impactWood_light_000/002/004 — https://kenney.nl/assets/impact-sounds
+  step-1..2.mp3                Impact Sounds: footstep_carpet_000/001 — https://kenney.nl/assets/impact-sounds
+  thud.mp3                     RPG Audio: dropLeather — https://kenney.nl/assets/rpg-audio
+  slip.mp3                     Casino Audio: card-slide-1 — https://kenney.nl/assets/casino-audio
