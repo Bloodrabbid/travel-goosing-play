@@ -1,0 +1,31 @@
+import{c as e,d as t,i as n,r,s as i}from"./sfx-BcFh7-h0.js";import{n as a,r as o,t as s}from"./music-CcxCDqyd.js";import{_ as c,p as l,r as u}from"./rumor-ui-DzwEWmZE.js";import{d,n as f,o as p,p as m,s as h,u as g}from"./run-kFGgAc42.js";import{n as _}from"./album-Ch0m-ITU.js";import{f as v,i as y,r as b,s as x,u as S}from"./stamp-ui-KoVOidll.js";var C={prologue:`копим на мечту`,route:`маршрут`,prep:`сборы`,night:`ночь в Токио`,day:`день концерта`};function w(e){if(e.stage===`day`&&e.route&&f(e)!==d(e).concertDay){let t=d(e).days[f(e)];return`день ${f(e)+1} · ${{tokyo:`Токио`,kyoto:`Киото`,nara:`Нара`,osaka:`Осака`}[t??`tokyo`]}`}return C[e.stage]??e.stage}async function T(){let d=document.getElementById(`ui`);d.classList.add(`menu`),r(),a(`home`);let f=m(),T=p();d.innerHTML=`
+    <div class="menu-bg"></div>
+    <section class="card menu-card">
+      <h1>Travel Goosing</h1>
+      <p class="menu-sub">Гусь и Лама копят на поездку мечты: осенняя Япония и концерт любимой группы в Токио.<br>Всё, что не учтёте при сборах, Япония вам припомнит.</p>
+      <div class="choices" id="choices"></div>
+      <p class="menu-note">Одна поездка — один итог: переиграть день нельзя, можно отправиться в новую поездку.</p>
+      <p class="menu-settings"><button type="button" data-set="music"></button><button type="button" data-set="sound"></button></p>
+    </section>
+    <section class="card notebook-card" id="notebook" hidden>
+      <h2>Блокнот слухов</h2>
+      <div id="notebook-body"></div>
+      <div class="choices"><button type="button" class="choice" data-choice="notebook-close"><span>Закрыть</span></button></div>
+    </section>
+    <section class="card notebook-card stamps-card" id="stampbook" hidden>
+      <h2>Штампы поездок</h2>
+      <div id="stampbook-body"></div>
+      <div class="choices"><button type="button" class="choice" data-choice="stampbook-close"><span>Закрыть</span></button></div>
+    </section>
+    <section class="card credits-card" id="credits" hidden>
+      <h2>Авторы</h2>
+      <p><b>Идея, вкус и плейтесты</b> — Кирилл и Вика (по мотивам своих поездок в Японию)</p>
+      <p><b>Сделано вместе с Claude</b> — студия studioigor: код, модели и задники в Blender, тексты событий</p>
+      <p><b>Задники-диорамы</b> (комбини, переезд, метро, отели, номера, улицы дня, концерт) и лист штампов — сгенерированы Кириллом и Викой в Nano Banana Pro для этой игры; города маршрута, герои и олень — Blender</p>
+      <p><b>Шрифты</b> — Caveat (Impallari Type), Golos Text (Paratype), Noto Sans CJK — SIL Open Font License 1.1</p>
+      <p><b>Библиотеки</b> — three.js, PixiJS, inkjs — MIT</p>
+      <p><b>Музыка</b> (временная, настоящая будет своя) — «Study And Relax», «Late Night Radio», «Local Forecast», «Funky Chunk»: Kevin MacLeod (incompetech.com), Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0), фрагменты-петли</p>
+      <p><b>Звуки</b> — записи Joseph Sardin и DenisChardonnet (BigSoundBank.com) и Kenney (kenney.nl), CC0</p>
+      <div class="choices"><button type="button" class="choice" data-choice="credits-close"><span>Закрыть</span></button></div>
+    </section>
+    <p class="hint"><a href="#credits" data-act="credits">авторы</a> · <a href="#" data-act="dev">тест-сцены</a><span class="dev-links" hidden>: <a href="#prologue">пролог</a> · <a href="#route">маршрут</a> · <a href="#m06">сборы</a> · <a href="#m01">ночь</a> · <a href="#day">день</a> · <a href="#mg">мини-игры</a> · <a href="#lookdev">look-dev</a></span></p>`,d.querySelector(`.menu-bg`).style.backgroundImage=`url(img/bg-desk.webp)`;let E=d.querySelector(`#choices`),D=(e,n,r,a,o=``)=>{let s=document.createElement(`button`);s.type=`button`,s.className=`choice ${o}`,s.dataset.choice=e,s.innerHTML=`<span>${n}</span><small>${r}</small>`,s.addEventListener(`click`,()=>{t(),i(`paper`),a()}),E.append(s)},O=d.querySelector(`[data-set=music]`),k=d.querySelector(`[data-set=sound]`),A=()=>{O.textContent=`♪ музыка: ${s()?`вкл`:`выкл`}`,k.textContent=`весь звук: ${n()?`выкл`:`вкл`}`,O.classList.toggle(`off`,!s()),k.classList.toggle(`off`,n())};O.addEventListener(`click`,()=>{t(),o(!s()),A()}),k.addEventListener(`click`,()=>{t(),e(!n()),n()||i(`paper`),A()}),A(),f&&D(`continue`,`Продолжить поездку →`,`этап: ${f.stage===`prep`&&f.prep?C.night:w(f)}`,()=>h(f,f.stage),`go`),D(`new`,f?`Новая поездка`:`Новая поездка →`,f?`начать с копилки заново — прошлая поездка закончится`:`с самого начала: копилка, маршрут, сборы — и в Японию`,()=>h(g(),`prologue`),f?``:`go`);let j=T&&x().frames[T.id]?_(T).photos.find(e=>e.key===x().frames[T.id]):void 0;T&&D(`album`,`Альбом прошлой поездки`,j?`кадр поездки: «${j.caption}»`:`как всё закончилось`,()=>h(T,`end`));let M=l(),N=Object.keys(M).length;D(`notebook`,`📓 Блокнот слухов · ${N} из ${c.length}`,N?`что сбылось, что устарело — правда из поездок`:`пока пусто: сорока пишет, поездка проверяет`,()=>I(!0));let P=S(x());D(`stamps`,`🏮 Штампы · ${P} из ${v.length}`,P?`эки-штампы за обычное и нелепое`:`пусто: штампы ставит поездка`,()=>R(!0));let F=d.querySelector(`#notebook`),I=e=>{d.querySelector(`#notebook-body`).innerHTML=u(l()),F.hidden=!e,d.querySelector(`.menu-card`).hidden=e};d.querySelector(`[data-choice=notebook-close]`).addEventListener(`click`,()=>{i(`paper`),I(!1)});let L=d.querySelector(`#stampbook`),R=e=>{b(),d.querySelector(`#stampbook-body`).innerHTML=y(x()),L.hidden=!e,d.querySelector(`.menu-card`).hidden=e};d.querySelector(`[data-choice=stampbook-close]`).addEventListener(`click`,()=>{i(`paper`),R(!1)});let z=d.querySelector(`#credits`),B=d.querySelector(`.menu-card`),V=e=>{z.hidden=!e,B.hidden=e,i(`paper`)};d.querySelector(`[data-choice=credits-close]`).addEventListener(`click`,()=>V(!1)),d.querySelectorAll(`.hint a:not([data-act])`).forEach(e=>e.addEventListener(`click`,t=>{t.preventDefault(),location.hash=e.getAttribute(`href`).slice(1),location.reload()}));let H=d.querySelector(`.dev-links`),U=d.querySelector(`[data-act=dev]`);H.hidden=new URLSearchParams(location.search).get(`dev`)!==`1`,U.hidden=!H.hidden,U.addEventListener(`click`,e=>{e.preventDefault(),H.hidden=!1,U.hidden=!0,i(`paper`)}),d.querySelector(`[data-act=credits]`).addEventListener(`click`,e=>{e.preventDefault(),t(),V(!0)}),window.__GAME__={ready:!0,newTrip:e=>h(g(e),`prologue`),notebook:()=>I(!0),stamps:()=>R(!0)}}export{T as start};
