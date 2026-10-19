@@ -1,4 +1,4 @@
-import{n as e,t}from"./metrics-CWqMWjbl.js";import{t as n}from"./rng-Bz5Svpye.js";import{c as r,d as i,i as a,l as o,r as s,s as c}from"./sfx-BcFh7-h0.js";import{n as l}from"./music-CcxCDqyd.js";import{t as u}from"./dash-ACyFrAqG.js";import{t as d}from"./omikuji-DKXojytk.js";import{S as f,t as p}from"./diorama-BeHUpqPD.js";import{t as m}from"./work-DOODaQhB.js";var h=`
+import{n as e,t}from"./metrics-CWqMWjbl.js";import{t as n}from"./rng-Bz5Svpye.js";import{c as r,d as i,i as a,l as o,r as s,s as c}from"./sfx-BcFh7-h0.js";import{n as l}from"./music-CcxCDqyd.js";import{t as u}from"./dash-Br9F_a_C.js";import{t as d}from"./omikuji-Gmvs1IdV.js";import{S as f,t as p}from"./diorama-CWMY59MN.js";import{t as m}from"./work-D7s4wKXQ.js";var h=`
   <section id="event" class="card m01 mg-gym" aria-live="polite">
     <h2>Мини-игры</h2>
     <p id="mg-log">Выберите, что попробовать. Каждый запуск — новый жребий.</p>
