@@ -1,4 +1,4 @@
-import{l as e}from"./index-D4Pzf7L8.js";import{i as t}from"./minigames-SLGTPe_o.js";var n=()=>{try{return new URLSearchParams(location.search).get(`nomini`)===`1`}catch{return!1}},r=`<svg class="mg-goose" viewBox="0 0 60 84" aria-hidden="true">
+import{l as e}from"./index-B4X17R87.js";import{i as t}from"./minigames-SLGTPe_o.js";var n=()=>{try{return new URLSearchParams(location.search).get(`nomini`)===`1`}catch{return!1}},r=`<svg class="mg-goose" viewBox="0 0 60 84" aria-hidden="true">
   <path d="M22 84 C20 60 24 44 26 30 L38 30 C38 46 44 62 46 84 Z" fill="#fbf8f1" stroke="#1f1d1b" stroke-width="2.2" stroke-linejoin="round"/>
   <path d="M24 64 L44 64 L46 84 L20 84 Z" fill="#f2c230" stroke="#1f1d1b" stroke-width="2.2" stroke-linejoin="round"/>
   <ellipse cx="32" cy="22" rx="13" ry="12" fill="#fbf8f1" stroke="#1f1d1b" stroke-width="2.2"/>
