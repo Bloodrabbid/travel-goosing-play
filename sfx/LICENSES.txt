@@ -25,6 +25,9 @@ BigSoundBank.com (CC0) — https://bigsoundbank.com/licenses.html
   tick.mp3       Tic Tac Mechanical Alarm Clock #2 — Joseph SARDIN — https://bigsoundbank.com/tic-tac-mechanical-alarm-clock-2-s2655.html
   whoosh.mp3     Whoosh #4 — Joseph SARDIN — https://bigsoundbank.com/whoosh-4-s1796.html
   rattle.mp3     Trash can rolling on a road #1 — Joseph SARDIN — https://bigsoundbank.com/trash-can-rolling-on-a-road-1-s1287.html
+  chime.mp3      PT-15 station arrival melody: Music box D#, F, A# (above), slowed an octave — Joseph SARDIN
+  train.mp3      PT-15 train rumble: Trash can rolling on a road #1 (slowed, low-passed) + Whoosh #4 + Block "Meinl"
+                 in wood (rail joints) — Joseph SARDIN (links above)
   beep.mp3       Message #2, Message #1 — Joseph SARDIN — https://bigsoundbank.com/message-2-s1112.html
                                                           https://bigsoundbank.com/message-1-s1111.html
 
