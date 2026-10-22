@@ -1,4 +1,4 @@
-import{a as e,l as t,p as n}from"./index-CjfSNskA.js";import{n as r,t as i}from"./metrics-CWqMWjbl.js";import{t as a}from"./rng-Bz5Svpye.js";import{n as o}from"./music-BWH-JPNS.js";import{t as s}from"./ambience-XTwNrkcq.js";import{g as c}from"./run-Dfk1jDUs.js";import{c as l,i as u,o as d,s as f,t as p}from"./skins-CZ0QZgi1.js";import{d as m,t as h}from"./diorama-8MfbRPqT.js";var g=`
+import{a as e,l as t,m as n}from"./index-Ckh9etF4.js";import{n as r,t as i}from"./metrics-CWqMWjbl.js";import{t as a}from"./rng-Bz5Svpye.js";import{n as o}from"./music-Hfun7rE9.js";import{t as s}from"./ambience-RZvguZI3.js";import{g as c}from"./run-Dfk1jDUs.js";import{c as l,i as u,o as d,s as f,t as p}from"./skins-CZ0QZgi1.js";import{d as m,t as h}from"./diorama-8MfbRPqT.js";var g=`
   <section id="event" class="card m01 wardrobe" aria-live="polite">
     <h2 id="event-title">Гардероб</h2>
     <p id="event-text"></p>
