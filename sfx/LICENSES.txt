@@ -36,3 +36,14 @@ Kenney (www.kenney.nl, CC0)
   step-1..2.mp3                Impact Sounds: footstep_carpet_000/001 — https://kenney.nl/assets/impact-sounds
   thud.mp3                     RPG Audio: dropLeather — https://kenney.nl/assets/rpg-audio
   slip.mp3                     Casino Audio: card-slide-1 — https://kenney.nl/assets/casino-audio
+
+Ambience loops (P22): cut to the steadiest stretch, end cross-faded into the start, loudness-normalised, stereo MP3 96k
+(tools/amb-loop.py). BigSoundBank.com, CC0:
+  amb-rain.mp3     Summer Rain on Terrace (#1019) — Joseph SARDIN — https://bigsoundbank.com/detail.php?id=1019
+  amb-street.mp3   Crossroads in Japan (#910) — Olivier du Japon — https://bigsoundbank.com/detail.php?id=910
+  amb-crowd.mp3    Applause: 600 People (#21) — Joseph SARDIN — https://bigsoundbank.com/detail.php?id=21
+  amb-sea.mp3      Sea Waves with Tern Calls (#267) — DenisChardonnet — https://bigsoundbank.com/detail.php?id=267
+  amb-onsen.mp3    Fountain of a Japanese Temple (#913) — Olivier du Japon — https://bigsoundbank.com/detail.php?id=913
+  amb-forest.mp3   Forest: On the Edge (#905) — Joseph SARDIN — https://bigsoundbank.com/detail.php?id=905
+  amb-lake.mp3     Pontoon, marina (#1444) — Joseph SARDIN — https://bigsoundbank.com/detail.php?id=1444
+  amb-wind.mp3     Wind in Tall Grass (#908) — Joseph SARDIN — https://bigsoundbank.com/detail.php?id=908
