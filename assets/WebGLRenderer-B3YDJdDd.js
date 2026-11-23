@@ -1,0 +1,1 @@
+export{i as WebGLRenderer}from"./hello-D1Ivi5nO.js";
