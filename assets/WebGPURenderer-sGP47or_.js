@@ -1,1 +1,0 @@
-export{r as WebGPURenderer}from"./hello-Ck67wVZU.js";

@@ -4,6 +4,11 @@ first-chord.mp3       "Первый аккорд" — original instrumental gene
                       (Gemini API) from the studio's own text prompt; carries Google's SynthID watermark.
                       Intro plays once, the body loops (ending cut, crossfade baked at the loop point), -16 LUFS, MP3 160 kbps.
 
+cand/*.mp3            Candidates for city themes, main theme, mini-games and quarrel (2 variants each) — original instrumentals
+                      generated for this game with Google Lyria 3.5 (Gemini API) from the studio's own text prompts; carry Google's
+                      SynthID watermark. Raw takes for choosing in the in-game music picker (loudness-normalised, MP3 112 kbps);
+                      the chosen ones become seamless loops, the rest are removed.
+
 All other tracks by Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0 License
 https://creativecommons.org/licenses/by/4.0/
 Changes: each file is an excerpt cut into a seamless loop (crossfaded at the loop point), loudness-normalised
