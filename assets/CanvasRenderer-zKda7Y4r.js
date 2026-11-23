@@ -1,0 +1,1 @@
+export{a as CanvasRenderer}from"./hello-BIZ2pIgc.js";
