@@ -1,0 +1,1 @@
+var e=null;function t(){if(e!==null)return e;let t=new URLSearchParams(location.search).get(`dev`),n=!1;try{t===`1`&&localStorage.setItem(`tg.dev`,`1`),t===`0`&&localStorage.removeItem(`tg.dev`),n||=localStorage.getItem(`tg.dev`)===`1`}catch{n||=t===`1`}return e=n,n}export{t};
