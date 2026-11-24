@@ -1,0 +1,1 @@
+function e(e){let t=e>>>0;return()=>{t=t+1831565813>>>0;let e=t;return e=Math.imul(e^e>>>15,e|1),e^=e+Math.imul(e^e>>>7,e|61),((e^e>>>14)>>>0)/4294967296}}function t(e,t=Date.now()){let n=new URLSearchParams(e).get(`seed`),r=n===null?NaN:Number(n);return Number.isFinite(r)?r:t}function n(e,t,n){return t+(n-t)*e()}export{n,t as r,e as t};

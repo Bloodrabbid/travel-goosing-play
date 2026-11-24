@@ -1,0 +1,17 @@
+Travel Goosing — music (public/music). Interim tracks until the game's own score.
+
+first-chord.mp3       "Первый аккорд" — original instrumental generated for this game with Google Lyria 3.5
+                      (Gemini API) from the studio's own text prompt; carries Google's SynthID watermark.
+                      Intro plays once, the body loops (ending cut, crossfade baked at the loop point), -16 LUFS, MP3 160 kbps.
+
+All other tracks by Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0 License
+https://creativecommons.org/licenses/by/4.0/
+Changes: each file is an excerpt cut into a seamless loop (crossfaded at the loop point), loudness-normalised
+to -16 LUFS, re-encoded as MP3 112 kbps.
+
+study-and-relax.mp3   "Study And Relax" Kevin MacLeod (incompetech.com) — ISRC USUAN1900030
+                      https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900030
+late-night-radio.mp3  "Late Night Radio" Kevin MacLeod (incompetech.com) — ISRC USUAN2100003
+                      https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2100003
+local-forecast.mp3    "Local Forecast" Kevin MacLeod (incompetech.com) — ISRC USUAN1300010
+                      https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300010
