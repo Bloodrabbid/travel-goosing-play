@@ -1,1 +1,0 @@
-function e(e){let t={seed:e,taps:0,drags:0,doodles:[]};return window.__metrics=t,t}function t(e={}){window.__GAME__={...e,ready:!0},document.getElementById(`curtain`)?.classList.remove(`on`)}export{t as n,e as t};

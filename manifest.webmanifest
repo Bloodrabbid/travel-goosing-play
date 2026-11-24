@@ -1,8 +1,7 @@
 {
   "name": "Travel Goosing",
   "short_name": "Travel Goosing",
-  "description": "Гусь и Лама копят на поездку мечты: осенняя Япония и концерт любимой группы в Токио",
-  "lang": "ru",
+  "description": "Goose and Llama save up for a dream trip: autumn Japan and a concert in Tokyo · Гусь и Лама копят на поездку мечты: осенняя Япония и концерт любимой группы в Токио",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
