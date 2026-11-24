@@ -1,0 +1,1 @@
+export{r as WebGPURenderer}from"./hello-B2iJco3g.js";
