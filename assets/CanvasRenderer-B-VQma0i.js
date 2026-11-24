@@ -1,1 +1,0 @@
-export{a as CanvasRenderer}from"./hello-Cz1m1u-l.js";
