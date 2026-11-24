@@ -1,0 +1,1 @@
+export{r as WebGPURenderer}from"./hello-DieHTB0Q.js";

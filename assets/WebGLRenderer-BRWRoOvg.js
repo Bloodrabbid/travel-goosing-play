@@ -1,0 +1,1 @@
+export{i as WebGLRenderer}from"./hello-DieHTB0Q.js";
