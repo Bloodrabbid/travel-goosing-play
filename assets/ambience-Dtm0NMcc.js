@@ -1,0 +1,1 @@
+import{a as e,h as t}from"./index-DHp4JTKb.js";var n=(t?.ambience??e).setAmbience;export{n as t};
