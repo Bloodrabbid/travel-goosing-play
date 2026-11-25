@@ -1,1 +1,0 @@
-import{a as e,h as t}from"./index-DR1Wvyhl.js";var n=(t?.ambience??e).setAmbience;export{n as t};
