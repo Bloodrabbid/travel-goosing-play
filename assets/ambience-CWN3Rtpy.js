@@ -1,1 +1,0 @@
-import{p as e,r as t}from"./index-i2gFxfUy.js";var n=(e?.ambience??t).setAmbience;export{n as t};
